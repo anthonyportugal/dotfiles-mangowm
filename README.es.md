@@ -1,5 +1,11 @@
 # MangoWM Dotfiles
 
+> [!WARNING]
+> **Este repositorio está archivado.** Ahora se mantiene como [`layers/wm/mangowm`](https://github.com/anthonyportugal/dotfiles/tree/main/layers/wm/mangowm) en el monorepo [dotfiles](https://github.com/anthonyportugal/dotfiles).
+>
+> Se conserva como copia funcional de la configuración anterior de varios repositorios. Sus enlaces apuntan a las ramas `legacy` de [dotfiles](https://github.com/anthonyportugal/dotfiles/tree/legacy) y [walls](https://github.com/anthonyportugal/walls/tree/legacy), que forman parte de esa misma configuración. No recibirá más actualizaciones.
+
+
 <p align="center">
   <a href="https://github.com/anthonyportugal/dotfiles-mangowm/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/anthonyportugal/dotfiles-mangowm/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=CI" alt="CI"></a>
   <a href="https://kernel.org"><img src="https://img.shields.io/badge/OS-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"></a>
@@ -22,7 +28,7 @@ Sesión de Wayland autónoma, modular y minimalista optimizada para **Arch Linux
 
 > [!TIP]
 > 🧩 **Ecosistema Modular de Dotfiles:**  
-> [Base y CLI](https://github.com/anthonyportugal/dotfiles) • **MangoWM (Wayland) [Actual]** • [BSPWM (X11)](https://github.com/anthonyportugal/dotfiles-bspwm) • [Fondos de Pantalla](https://github.com/anthonyportugal/walls) • [Sistema](https://github.com/anthonyportugal/dotfiles-system)
+> [Base y CLI](https://github.com/anthonyportugal/dotfiles/tree/legacy) • **MangoWM (Wayland) [Actual]** • [BSPWM (X11)](https://github.com/anthonyportugal/dotfiles-bspwm) • [Fondos de Pantalla](https://github.com/anthonyportugal/walls/tree/legacy) • [Sistema](https://github.com/anthonyportugal/dotfiles-system)
 > 
 > Este repositorio proporciona un entorno de escritorio Wayland autónomo y listo para producción, integrándose limpiamente con el ecosistema de dotfiles base.
 
@@ -153,7 +159,7 @@ Si prefieres la ejecución mediante scripts o comandos no interactivos, utiliza 
 
 Aunque este repositorio funciona de manera **100% independiente**, se integra limpiamente con el ecosistema de dotfiles:
 
-- 🌐 **Repositorio Base:** [anthonyportugal/dotfiles](https://github.com/anthonyportugal/dotfiles)
+- 🌐 **Repositorio Base:** [anthonyportugal/dotfiles](https://github.com/anthonyportugal/dotfiles/tree/legacy)
 - **Ecosistema Compartido:** Al instalarse junto con el repositorio base, MangoWM sincroniza las preferencias de modo oscuro global, alias de shell compartidos, configuraciones de Neovim y variables de tema GTK a través de `$HOME/.local/lib/dotfiles/session-preferences`.
 
 ---
